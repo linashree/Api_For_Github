@@ -9,9 +9,9 @@ public class DataUtilities implements AutoConstant {
 
     public DataUtilities() {
         try {
-            FileInputStream fis = new FileInputStream(propertyFilePath);
+            FileInputStream file = new FileInputStream(propertyFilePath);
             prop = new Properties();
-            prop.load(fis);
+            prop.load(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
