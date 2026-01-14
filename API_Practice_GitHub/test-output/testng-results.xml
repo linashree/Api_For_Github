@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-13T18:54:38Z" name="Default suite" finished-at="2026-01-13T18:54:47Z" duration-ms="9395">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@67545b57]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-13T18:54:38Z" name="Default test" finished-at="2026-01-13T18:54:47Z" duration-ms="9395">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:38Z" name="setUpClass" finished-at="2026-01-14T00:24:38Z" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-14T00:24:43Z" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get an existing repository"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GitHub Repository CRUD Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-14T00:24:45Z" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new repository"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GitHub Repository CRUD Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-14T00:24:46Z" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update repository description"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GitHub Repository CRUD Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-14T00:24:47Z" duration-ms="685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete the created repository"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GitHub Repository CRUD Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@67545b57]" started-at="2026-01-14T00:24:47Z" name="tearDownClass" finished-at="2026-01-14T00:24:47Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
